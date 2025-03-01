@@ -34,12 +34,6 @@
                                 </a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a href="{{url('case_studies')}}" class="nav-link {{ Request::is('case_studies') ? 'active' : '' }} ps-2 d-flex align-items-center cursor-pointer">
-                                    <i class="fas fa-pencil-alt opacity-6 me-2 mb-1 text-sm"></i>
-                                    <span>Blogs</span>
-                                </a>
-                            </li>
-                            <li class="nav-item mx-2">
                                 <a href="{{url('contact')}}" class="nav-link {{ Request::is('contact') ? 'active' : '' }} ps-2 d-flex align-items-center cursor-pointer">
                                     <i class="fas fa-address-book opacity-6 me-2 mb-1 text-sm"></i>
                                     <span>Contact Us</span>

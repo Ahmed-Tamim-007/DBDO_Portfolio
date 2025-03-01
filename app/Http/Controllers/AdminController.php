@@ -366,7 +366,7 @@ class AdminController extends Controller
                 unlink(public_path('uploads/' . $data->portfolio_img_3));
             }
 
-            $img_3_name = uniqid() . '.' . $img_1->getClientOriginalExtension();
+            $img_3_name = uniqid() . '.' . $img_3->getClientOriginalExtension();
             $request->portfolio_img_3->move('uploads', $img_3_name);
             $data->portfolio_img_3 = $img_3_name;
         }
